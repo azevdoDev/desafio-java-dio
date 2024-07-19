@@ -1,6 +1,25 @@
 import java.util.Scanner;
 
+/**
+ * <h1>Meu projeto de banco</h1>
+ * <p>
+ * Feito na Dio
+ * </p>
+ * 
+ * @author Matheus Azevedo
+ * @version 1.0
+ * @since 19/07/2024
+ */
 public class ContaTerminal {
+    /**
+     * 
+     * @param numero  é o parâmetro que recebe o número do banco do usuário.
+     * @param agencia é o parâmetro que recebe o número da agência
+     * @param nome    é o parâmetro que recebe o nome do usuário.
+     * @param saldo   é o parâmetro que recebe o valor em dinheiro da conta do
+     *                usuário.
+     * @return Mensagem contendo todos os parâmetros inseridos pelo usuário.
+     */
     public static void main(String[] args) throws Exception {
         // TODO: Conhecer e importar a classe scanner
         // Exibir as mensagens para o nosso usuário
